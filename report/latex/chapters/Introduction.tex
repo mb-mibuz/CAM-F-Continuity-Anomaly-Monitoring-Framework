@@ -1,0 +1,56 @@
+\chapter{Introduction}
+\label{ch:introduction}
+
+Film production represents a complex orchestration of creative and technical elements where minor inconsistencies can undermine narrative coherence. Among production challenges, continuity errors occupy a unique position: easily preventable during principal photography yet expensive to correct in post-production. This project investigates whether computer-vision technologies can assist human supervisors in detecting these anomalies in real-time on-set.
+
+\section{The Continuity Problem in Film Production}
+\label{sec:continuity_problem}
+
+Maintaining continuity in film production proves surprisingly complex. A single scene often requires multiple takes, set reconstructions and extended breaks between shooting sessions. Each interruption increases risk of unintentional inconsistencies: a mug shifting position on a table, an actor's shirt changing from checkered to striped pattern, or a clock showing impossible time progression. These errors, known collectively as continuity errors, undermine narrative coherence and damage production credibility.
+
+The global film- and video-production industry, valued at approximately £200 billion annually~\cite{businessresearch2025}, faces persistent quality-control challenges. Among these, continuity errors are a particularly costly problem. These visual inconsistencies between shots, ranging from misplaced props to temporal impossibilities, require expensive post-production corrections when discovered late in the pipeline. Industry professionals estimate that major productions allocate 5–10\% of post-production budgets specifically to continuity-related fixes~\cite{filmustage2024}, although comprehensive industry-wide cost data remains unavailable.
+
+With more than 9,000 theatrical films produced globally each year~\cite{wipo2025}, plus countless television episodes and streaming content, the cumulative impact of continuity errors affects thousands of productions. Despite mature computer-vision capabilities in adjacent domains, no automated system currently assists the thousands of script supervisors worldwide who manually track continuity during filming on their own.
+
+\section{The Technical Challenge}
+\label{sec:technical_challenge}
+
+Recent advances in computer vision suggest potential for automated assistance. Object detection algorithms achieve high accuracy and performance on standard benchmarks~\cite{tsirtsakis2025}. However, continuity detection during film production presents unique challenges that differentiate it from conventional video analysis:
+
+\textbf{Temporal discontinuity}: Unlike surveillance or sports analysis, in which frames flow continuously, film production captures scenes out of sequence. Shots requiring continuity matching might be filmed days or weeks apart, invalidating assumptions about temporal coherence that underpin most video-processing algorithms.
+
+\textbf{Semantic ambiguity}: Determining whether a visual change constitutes an error requires understanding narrative context. A change in a character's appearance might represent deliberate storytelling or a continuity mistake. Current technologies lack the contextual reasoning to make these distinctions reliably.
+
+\textbf{Real-time constraints}: Film sets operate on tight schedules in which every minute costs hundreds of pounds. Any detection system must operate inside the natural rhythm of production, without adding any overhead.
+
+\textbf{Security requirements}: Film footage represents valuable intellectual property. Productions implementing automated systems require guarantees against data exfiltration, particularly when using community-contributed detection algorithms.
+
+\section{Research Gap}
+\label{sec:research_gap}
+
+A literature review reveals minimal prior work addressing real-time continuity detection. Pickup and Zisserman's 2009 study~\cite{pickup2009} represents the sole academic attempt, analysing completed films to rank potential continuity errors. Their SIFT-based approach, although groundbreaking for its time, had several limitations in practicality.
+
+The absence of subsequent research might stem from three factors. First, the film industry's closed nature limits academic access to production footage and workflows. No public datasets exist for training or evaluation, because productions rarely release raw footage. Second, the interdisciplinary nature of the problem, requiring both computer-vision expertise and film-production knowledge, creates barriers. Third, niche application of the advanced research computer-vision technologies in film is not as appealing as other more impactful industries.
+
+To fill the gap this project addresses 2 main questions:
+\begin{enumerate}
+\item Can we build a system that can monitor footage on-set in real time?
+\item Would it accurately detect common continuity anomalies within the production constraints?
+\end{enumerate}
+
+\section{Contributions}
+\label{sec:contributions}
+
+This project makes three primary contributions:
+
+\begin{enumerate}
+\item \textbf{Near production-ready deployment system}: We developed a complete, deployable application that integrates seamlessly with existing film-production workflows. The system installs in under a few minutes on a standard laptop, requires a connection to the camera or any source that streams the footage from it and no technical expertise. Unlike research prototypes, CAM-F is immediately usable on film sets without disrupting established production pipeline.
+
+\item \textbf{Secure detector plugin framework}: We develop a modular detector framework using Docker containerisation with comprehensive security measures. This enables safe execution of community-contributed detectors without risking footage exfiltration.
+
+\item \textbf{Validated detector implementations}: We implement two detectors addressing different error types. ClockDetector identifies temporal inconsistencies in clocks with 74.95\% accuracy and 1.92 seconds to detection, and DifferenceDetector locates spatial changes at 60.7\% accuracy with 6.37 seconds to detection. These establish baseline performance metrics for future research.
+\end{enumerate}
+
+Along with the main contributions, due to the novel nature of this specialised application field, we have contributed a simple tailored metric for evaluation of the detectors' practical performance in real-world deployment scenarios.
+
+% Note: Thesis structure section removed as per the main content provided

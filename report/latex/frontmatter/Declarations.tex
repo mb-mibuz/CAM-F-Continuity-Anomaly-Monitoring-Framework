@@ -1,0 +1,57 @@
+% Declarations Chapter
+% Required from 2024-25 academic year onwards
+% This chapter should be positioned after References and before Appendices
+\chapter*{Declarations}
+\addcontentsline{toc}{chapter}{Declarations}
+
+\section*{Declaration of Originality}
+
+I hereby declare that the work presented in this thesis is my own unless otherwise stated. To the best of my knowledge the work is original and ideas developed in collaboration with others have been appropriately referenced.
+
+\section*{Use of Generative AI}
+
+This report and the associated software implementation were completed without the use of Generative AI tools. The system design, implementation, experimental methodology, and written content represent the author's independent work, developed through traditional research and engineering methods.
+
+\section*{Ethical Considerations}
+
+The development of CAM-F required careful consideration of several ethical implications:
+
+\begin{itemize}
+    \item \textbf{Privacy and Data Protection}: The system processes video footage that may contain individuals. To address privacy concerns, all testing utilised publicly available film footage, synthetic datasets, or content where explicit consent was obtained. 
+    
+    \item \textbf{Intellectual Property}: Film footage represents valuable intellectual property. The security-first architecture, including Docker containerisation and filesystem restrictions, ensures that community-contributed detectors cannot access or export production footage. 
+    
+\end{itemize}
+
+No formal ethics approval was required as the project did not involve human subjects research. All evaluation used either synthetic datasets or publicly available film content from established databases.
+
+\section*{Sustainability}
+
+Environmental sustainability was a key consideration throughout the project development:
+
+\begin{itemize}
+    \item \textbf{Computational Efficiency}: The Production-Aligned Frame Rate (PAFR) metric ensures processing only occurs during natural production breaks, avoiding continuous computation. The 1.2 fps sampling rate, while constrained by performance, significantly reduces energy consumption compared to processing full 24 fps streams. Frame caching and deduplication algorithms prevent redundant processing, reducing computational load by significantly.
+    
+    \item \textbf{Hardware Utilisation}: The system was designed to run on standard laptops (£2,000 consumer hardware) rather than requiring dedicated servers or cloud infrastructure. All development and testing utilised existing university and personal computing resources, avoiding additional hardware purchases. GPU acceleration is optional, allowing CPU-only operation for energy-conscious deployments.
+    
+    \item \textbf{Algorithmic Design}: Both detectors were optimised for efficiency. The modular architecture allows selective detector activation, preventing unnecessary computation when specific error types are not relevant to a production.
+    
+    \item \textbf{Long-term Impact}: By preventing continuity errors during production rather than fixing them in post-production, CAM-F could reduce industry-wide computational requirements for CGI corrections and reshoots. The open-source nature and comprehensive documentation ensure longevity, preventing wasteful reimplementation.
+\end{itemize}
+
+\section*{Availability of Data and Materials}
+
+All project materials are publicly available to support reproducibility and further research:
+
+\begin{itemize}
+    \item \textbf{Source Code}: The complete CAM-F implementation, including the framework, detectors, and frontend application, is available at:\\
+    \url{https://github.com/mb-mibuz/CAM-F-Continuity-Anomaly-Monitoring-Framework}\\
+    
+    \item \textbf{Datasets}: Evaluation datasets and test materials are available at:\\
+    \url{https://drive.google.com/drive/folders/1V5cNZca6zlABwSlxUAjAKgemE96s3_fj?usp=sharing}\\
+    This includes ClockMovies dataset, synthetic digital clock images, SynthText-Change, VIRAT-STD, and Kubric-Change datasets. Note that the COCO-Inpainted dataset is not included due to file size constraints (>90GB) but is publicly accessible from the original authors at \url{https://arxiv.org/abs/2504.18361}.
+    
+    \item \textbf{Evaluation Materials}: Performance benchmarking scripts, test harnesses, and the Production-Aligned Frame Rate (PAFR) calculation tool are included in the \texttt{/tests} directory of the main repository.
+\end{itemize}
+
+Film footage used in workflow integration testing cannot be redistributed due to copyright restrictions but is availbele for review in the same drive with datasets.

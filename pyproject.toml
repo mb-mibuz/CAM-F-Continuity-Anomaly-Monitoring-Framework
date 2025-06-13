@@ -1,0 +1,103 @@
+[tool.poetry]
+name = "CAMF"
+version = "0.1.0"
+description = "Continuity Assistance and Monitoring Framework - Professional film production continuity monitoring system"
+authors = ["CAMF Development Team"]
+license = "CC0-1.0"
+readme = "README.md"
+homepage = "https://github.com/your-org/CAMF"
+repository = "https://github.com/your-org/CAMF"
+keywords = ["film", "production", "continuity", "monitoring", "detection"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Video",
+]
+
+[tool.poetry.extras]
+consul = ["python-consul"]
+redis = ["redis"]
+metrics = ["prometheus-client"]
+ocr = ["easyocr", "pytesseract"]
+ml = ["transformers", "sentence-transformers"]
+profiling = ["memory-profiler", "line-profiler", "py-spy"]
+
+[tool.poetry.scripts]
+camf = "CAMF.launcher:main"
+camf-detector = "CAMF.detector_cli:cli"
+
+[build-system]
+requires = ["poetry-core>=1.7.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py310', 'py311', 'py312']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+  | detector_environments
+  | workingdata
+  | data
+  | logs
+  | htmlcov
+)/
+'''
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+exclude = [
+    "detector_environments/",
+    "workingdata/",
+    "tests/",
+    "data/",
+    "logs/",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["*_test.py", "test_*.py"]
+addopts = "-v --cov=CAMF --cov-report=html --cov-report=term"
+
+[tool.isort]
+profile = "black"
+line_length = 100
+skip_gitignore = true
+extend_skip = ["detector_environments", "workingdata", "data"]
+
+[tool.pylint]
+max-line-length = 100
+disable = [
+    "C0103",  # Invalid name
+    "C0114",  # Missing module docstring
+    "C0115",  # Missing class docstring
+    "C0116",  # Missing function docstring
+    "R0903",  # Too few public methods
+    "R0913",  # Too many arguments
+    "W0212",  # Protected access
+]
+ignore-paths = [
+    "detector_environments",
+    "workingdata",
+    "data",
+    "logs",
+    "tests",
+]

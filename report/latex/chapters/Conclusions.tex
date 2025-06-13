@@ -1,0 +1,63 @@
+\chapter{Future Work, Conclusions and Contributions}
+
+\section{Achievements and Contributions}
+This project aimed to address the lack of automated continuity monitoring systems in film production through three primary contributions, each with varying degrees of success.
+
+\subsection{Deployable Application}
+The first contribution promised a "complete, deployable application that integrates seamlessly with existing film-production workflows." CAM-F partially delivers on this promise. The system genuinely installs on standard hardware, requiring only a connection to a camera feed and no technical expertise from users. The monolithic backend architecture successfully manages frame capture, detector execution, and result aggregation without disrupting production workflows.
+
+However, "seamless integration" proves overstated. The system operates as a standalone tool alongside existing workflows rather than integrating with industry-standard tools like ScriptE or MovieSlate. This design choice, while simplifying implementation, adds operational overhead for script supervisors who must manage yet another system. The export functionality provides universal format (PDF reports) that work with any workflow, but this represents accommodation rather than true integration.
+
+The deployment's simplicity succeeds unequivocally. Installation requires minutes rather than hours, running on laptops costing approximately £2,000 rather than dedicated servers. This accessibility removes a significant barrier to adoption, particularly for smaller productions with limited technical resources. The system's ability to operate fully offline addresses critical security requirements, though at the cost of limiting detector capabilities that might benefit from cloud resources.
+
+\subsection{Detector Framework}
+The detector framework represents the project's substantial technical achievement. Docker containerisation provides comprehensive isolation without preventing detector functionality, implementing network isolation, filesystem restrictions and system call filtering that make footage exfiltration technically impossible. The manifest-driven architecture balances security with usability, allowing researchers to declare requirements explicitly while preventing incompatible detectors from installing on unsuitable systems.
+
+The framework's strength lies in its development experience. The BaseDetector class abstracts protocol complexity into a simple Python interface, enabling computer vision researchers to contribute without learning containerisation or deployment procedures. Dual-mode execution supports both development (virtual environments) and production (Docker containers) without code modification, recognising the different requirements of each phase.
+
+\subsection{Proof-of-Concept Detectors}
+The two proof-of-concept detectors demonstrate both the framework's viability and the fundamental challenges of continuity detection. ClockDetector achieves its stated 75\% accuracy, matching our estimated human baseline and suggesting practical deployment potential for temporal continuity monitoring. However, as we discovered, DifferenceDetector's 60.7\% mAP represents both technical success and practical failure. The implementation correctly adapts Sachdeva and Zisserman's co-attention architecture, achieving comparable performance on standard benchmarks. However, this performance falls 15-20 percentage points below the set baseline, rendering it unsuitable for fully autonomous deployment. The detector's environmental sensitivity, dropping to 54\% on outdoor scenes, further limits practical use. The Production-Aligned Frame Rate metric provides a framework for understanding temporal limitations, but the constraints remain significant compared to the 24 fps standard capture rate in film production.
+
+Both detectors suffer from oversimplified error reporting. ClockDetector's three anomaly types (continuous flow, time uniformity, narrative consistency) provide basic temporal validation but lack nuance for complex production scenarios. DifferenceDetector's unified "visual\_change" reporting abandons semantic classification entirely, delegating all interpretation to script supervisors. While computationally efficient, this approach might limit the system's ability to reduce supervisor workload in a meaningful way.
+
+\subsection{Industry Impact}
+Assessing real-world impact proves challenging without production deployment data. The claimed £620 million annual cost of continuity errors lacks rigorous foundation, derived from rough estimates rather than documented losses. This figure serves more as motivation than a measurable target, highlighting the difficulty of quantifying problems in closed up industries.
+
+CAM-F's true impact may lie in demonstrating feasibility rather than providing immediate solutions. By establishing that real-time continuity monitoring is technically possible within production constraints, the project opens avenues for future research. The modular architecture allows incremental improvement through community-driven contributions, potentially achieving the comprehensive coverage that individual efforts cannot.
+
+The evaluation against our original research questions:
+\begin{enumerate}
+\item Can we build a system that can monitor footage on-set in real time?
+\item Would it accurately detect common continuity anomalies within the production constraints?
+\end{enumerate}
+yields mixed results. We successfully built a system capable of real-time monitoring within production constraints, answering the first question affirmatively. However, accurate detection of common continuity anomalies remains partially unresolved. The system demonstrates that automated assistance is possible but highlights the gap between current capabilities and production requirements.
+
+\section{Future Work}
+
+\subsection{Semantic Barrier}
+Integrating Multimodal Large Language Models would enable CAM-F to understand narrative context, distinguishing between intentional storytelling (a character's appearance changing after a fight) and genuine errors. This semantic reasoning would dramatically reduce false positives, making the system trustworthy enough for production deployment without constant supervision. 
+
+\subsection{Supervised Learning}
+The false positive marking feature could evolve into a continuous learning system where each production makes detectors smarter. By learning from script supervisors' corrections, detectors would adapt to specific production styles, improving accuracy from 75\% to potentially over 90\% within weeks of use. This methodology is already used in various computer-vision monitoring systems, a good example of which is manufacturing [32].
+
+\subsection{Multi-angle Analysis}
+Productions typically capture scenes from multiple angles simultaneously, yet current detection analyses each independently. Cross-referencing detections across angles would provide verification that dramatically improves confidence scores and catches errors invisible from single viewpoints. This might even allow for 3D reconstructions of sets for even more precision in monitoring [33].
+
+\subsection{Script Integration}
+Allowing script supervisors to inject scene descriptions and narrative material directly into the detection pipeline would create more opportunities for development of specialised detectors. It could also assist in validation and semantic interpretation of certain features that non-contextual detectors extract. For example, if there's an intentional narrative time jump and the clock display in the same take drastically changes, we have no grounds to evaluate it. It would get flagged by the detector and consequently marked as false positive by the script supervisor.
+
+\subsection{Temporal Correlation Exploitation}
+Current frame-pair comparison ignores the rich temporal information available in video sequences. Implementing video-based detection that analyses continuous motion patterns between takes could identify subtle continuity violations impossible to spot in static comparisons. By tracking object trajectories and motion consistency across 10-30 frame windows, the system could detect anomalies like acceleration discontinuities in falling objects or unnatural motion jumps, whilst building temporal confidence scores that reduce false positives. 
+
+\section{Conclusion}
+Through developing CAM-F, we have demonstrated both the potential and limitations of applying current computer vision technologies to this domain. Our three primary contributions each achieve their stated goals with varying degrees of success. The deployable system genuinely installs and operates on standard hardware, fulfilling the accessibility objective. The secure plugin framework successfully balances openness with production security requirements. The detector implementations provide concrete baselines for future research, even if their absolute performance falls short of production requirements.
+
+The Production-Aligned Frame Rate metric introduced in Section 5.2.4 provides a practical framework for evaluating real-time performance within production constraints. This contribution may outlast the specific implementation, offering future researchers a grounded approach to system evaluation.
+
+Critical reflection identifies several decisions that limited project outcomes. The choice to prioritise breadth over depth - implementing multiple detectors rather than perfecting one - dispersed effort without achieving excellence in a single field. The security-first architecture, although is a significant ethical and legal consideration, imposes performance penalties that compound existing algorithmic limitations. Most importantly, the attempt to build a general framework based on public sources before deeply understanding specific use cases resulted in abstractions that may not fully align with actual production needs.
+
+Despite these limitations, CAM-F establishes essential groundwork for future development. The framework exists, compiles reliably and processes real footage from actual cameras. Security measures protect valuable content. The plugin architecture enables parallel development. These foundations, however imperfect, provide the infrastructure upon which more sophisticated solutions can build.
+
+The project ultimately demonstrates that automated continuity monitoring remains an open research challenge. CAM-F represents an earnest attempt to push current technologies towards an overlooked problem. Looking forward, the clearest path involves narrowing scope to specific, well-defined continuity problems. Clock continuity represents one such domain; other developers might contribute to tailored action tracking or appearance inconsistencies. By solving constrained problems excellently rather than general problems adequately, future systems could provide genuine value to productions while research continues toward comprehensive solutions.
+
+This project contributes to the broader conversation about computer vision in creative industries. It highlights both the concept of automated assistance and the irreplaceable value of human expertise in tasks requiring contextual understanding. As film production increasingly embraces digital tools, systems like CAM-F will evolve from research prototypes to production necessities. This work represents an early step on that longer journey.

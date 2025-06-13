@@ -1,0 +1,101 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Abstract}{i}{section*.1}%
+\contentsline {chapter}{Plain Language Summary}{ii}{section*.3}%
+\contentsline {chapter}{Acknowledgements}{iii}{section*.5}%
+\contentsline {chapter}{Contents}{iv}{section*.7}%
+\contentsline {chapter}{List of Figures}{vii}{section*.8}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The Continuity Problem in Film Production}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The Technical Challenge}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Research Gap}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Contributions}{2}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Understanding Continuity Anomalies}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Definitions and guidelines}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Variation in continuity errors}{5}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}The Cognitive Science of Continuity Supervision}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Vigilance Task Characteristics}{5}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Film Production Workflows}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Production Constraints}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Tools and Practices}{6}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}From the Perspective of Script Supervisors}{7}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Computer-Vision Capabilities and Limitations}{7}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Object Detection}{7}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Semantic Understanding Gap}{8}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Applicable Techniques}{8}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Related Work Analysis}{9}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Pickup and Zisserman (2009)}{9}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Adjacent Research Domains}{10}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Summary}{11}{section.2.6}%
+\contentsline {chapter}{\numberline {3}System Design and Architecture}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Requirements Analysis}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Production Environment Constraints}{12}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Performance Requirements}{12}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Other Non-Quantifiable Requirements}{13}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Architecture Overview}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Key Design Decisions}{14}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Implementation Platforms}{14}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Technology Stack}{15}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Storage Strategy}{15}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Core Framework Components}{16}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Real-time Monitoring Pipeline}{16}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Frontend Event Distribution}{16}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Security Measures}{17}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Reliability Practices}{17}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Detector Design}{18}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Manifest Driven Architecture}{18}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Three-Phase Execution Model}{19}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Error Reporting Structure}{19}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Communication Protocol}{19}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Development Experience}{20}{subsection.3.5.5}%
+\contentsline {section}{\numberline {3.6}Production Workflow Integration}{20}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Implementation}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Overview}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Monitoring Pipeline}{23}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Capture to Storage}{23}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Reference Management}{24}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Frame Distribution}{24}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Result Aggregation}{24}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}ClockDetector}{25}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Detector Overview}{25}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Analog Clocks}{25}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Digital Clocks}{26}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Validation and Error Reporting}{28}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}DifferenceDetector}{28}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Detector Overview}{28}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Co-Attention Mechanism}{29}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Specialised Masking and Filtering}{29}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Validation and Error Reporting}{31}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Additional Features}{31}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Parallel Processing}{31}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Error Deduplication}{31}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Video Uploads}{32}{subsection.4.5.3}%
+\contentsline {chapter}{\numberline {5}Evaluation}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Evaluation Methodology}{33}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Evaluation Metrics}{33}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Test Environment}{33}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Dataset Composition}{34}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Performance Analysis}{34}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}ClockDetector}{34}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}DifferenceDetector}{35}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Detection Accuracy}{36}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Real-time Viability}{36}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Workflow Integration Testing}{38}{subsection.5.2.5}%
+\contentsline {section}{\numberline {5.3}Discussion}{40}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Results Overview}{40}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Limitation Analysis}{41}{subsection.5.3.2}%
+\contentsline {chapter}{\numberline {6}Future Work, Conclusions and Contributions}{42}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Achievements and Contributions}{42}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Deployable Application}{42}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Detector Framework}{42}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Proof-of-Concept Detectors}{43}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Industry Impact}{43}{subsection.6.1.4}%
+\contentsline {section}{\numberline {6.2}Future Work}{44}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Semantic Barrier}{44}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Supervised Learning}{44}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Multi-angle Analysis}{44}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Script Integration}{44}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}Temporal Correlation Exploitation}{45}{subsection.6.2.5}%
+\contentsline {section}{\numberline {6.3}Conclusion}{45}{section.6.3}%
+\contentsline {chapter}{References}{47}{chapter*.27}%
+\contentsline {chapter}{Declarations}{50}{chapter*.28}%

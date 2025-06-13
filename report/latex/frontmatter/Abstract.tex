@@ -1,0 +1,66 @@
+% ABSTRACT WRITING GUIDELINES
+% Based on analysis of distinguished MEng reports from Imperial College
+%
+% PURPOSE: The abstract is your report's elevator pitch. Someone reading ONLY the abstract
+% must understand: (1) what problem you solved, (2) how you solved it, (3) what you achieved,
+% and (4) why it matters. Maximum one page (~200-300 words).
+%
+% STRUCTURE (follow this exact order):
+% 1. Context & Motivation (1-2 sentences): State the problem domain and why it matters
+% 2. Gap/Challenge (1 sentence): What specific issue your project addresses
+% 3. Approach & Methods (2-3 sentences): Your solution approach and key technical innovations
+% 4. Key Results (2-3 sentences): Quantitative achievements and performance metrics
+% 5. Implications (1-2 sentences): Significance and potential applications
+%
+% STYLE RULES:
+% - NO CITATIONS in the abstract
+% - Use present tense for facts ("Continuity errors cost...")
+% - Use past tense for your work ("We developed...")
+% - Be specific with numbers ("30fps processing", "95% accuracy", not "fast" or "accurate")
+% - Define acronyms even if defined later ("CAMF (Continuity Anomaly Monitoring Framework)")
+% - Avoid vague terms like "novel", "cutting-edge" without justification
+%
+% DISTINGUISHED PATTERNS TO EMULATE:
+% - Start with a compelling industry/real-world problem
+% - Clearly state what makes your approach unique (first to do X, combines Y and Z)
+% - Include 2-3 specific technical contributions as bullets or integrated sentences
+% - Provide concrete performance metrics from evaluation
+% - End with broader impact beyond the immediate application
+%
+% COMMON MISTAKES TO AVOID:
+% - Being too general or abstract
+% - Focusing on implementation details rather than contributions
+% - Missing quantitative results
+% - Overselling ("revolutionary", "game-changing") without evidence
+% - Writing an introduction instead of a summary
+%
+% EXAMPLE OPENING PATTERNS FROM DISTINGUISHED REPORTS:
+% - "Film production continuity errors cost the industry £X million annually..."
+% - "Current manual continuity supervision fails to detect Y% of errors..."
+% - "The increasing complexity of modern productions requires..."
+
+\frontmatterchapter{Abstract}
+
+Continuity errors cost the film industry £620 million annually through reshoots and corrections, yet production teams rely on manual supervision methods that have been unchanged since the 1920s. Although existing research addresses only post-production analysis, no system provides real-time continuity monitoring during active filming, when errors can be prevented.
+
+We present CAM-F (Continuity Anomaly Monitoring Framework), the first real-time continuity-monitoring system for film and television production. The framework uses a modular monolith architecture with process-isolated detector plugins, of which we developed two as proof-of-concept. ClockDetector combines the YOLOv11 object-detection model with ResNet50-based time prediction for analog clocks, and PaddleOCR for digital ones, whereas DifferenceDetector uses co-attention networks to identify prop changes.
+
+Evaluation shows that ClockDetector processes a pair of frames in 1.92 seconds with 75.0\% accuracy, whereas DifferenceDetector achieves 60.7\% on change-detection benchmarks with 6.37 seconds of time to detection. The system enables real-time monitoring at 1.2 fps with both detectors enabled during the typical 5 minute reset periods between takes, proving that computer-assisted continuity supervision is viable during production.
+
+CAM-F transforms continuity monitoring from expensive post-production correction to real-time prevention and establishes an extensible framework for specialised detector development. This addresses a critical gap in film-production pipeline, demonstrating how computer vision can augment, rather than replace, human expertise while potentially reducing industry costs.
+
+% PLAIN LANGUAGE SUMMARY GUIDELINES
+% Some departments require a plain language summary for accessibility
+% Write for a general audience (your grandmother, a high school student)
+% Avoid all technical jargon and explain the problem/solution simply
+% Focus on real-world impact and relatable examples
+
+\frontmatterchapter{Plain Language Summary}
+
+Picture this: a paper coffee cup sitting on a medieval banquet table in your favourite fantasy drama, or Julia Roberts' breakfast croissant magically transforming into a pancake. These are called continuity errors and time-to-time they can break your immersion into the story, and beyond costing millions to fix, they can turn a high-budget production that took years to create into an internet meme overnight.
+
+Film sets employ script supervisors to track every detail, but on complex productions with hundreds of people and constant changes, mistakes inevitably slip through. This project, CAM-F, acts as a digital assistant that helps catch these errors in real-time during filming.
+
+Rather than building one massive system to catch every possible error, a framework was designed where specialised detectors can be added like plugins. One detector watches clocks to ensure time consistency, another spots when objects have moved between takes. The system alerts the script supervisor in real time, allowing fixes before moving on, rather than discovering problems months later when actors and sets are gone.
+
+While computers can't replace the creative judgment of film professionals, this project shows how technology can make their jobs easier and help create better films with fewer costly mistakes.

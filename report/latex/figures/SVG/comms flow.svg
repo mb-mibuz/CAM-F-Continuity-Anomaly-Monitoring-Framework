@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 876.24 166.84">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Poppins-Light, Poppins;
+        font-weight: 300;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 6px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #333;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+        stroke-width: 6px;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-5, .cls-7 {
+        stroke-linejoin: round;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 5 5;
+      }
+
+      .cls-6, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6, .cls-7 {
+        stroke-width: 2px;
+      }
+
+      .cls-6, .cls-7, .cls-11 {
+        stroke: #333;
+      }
+
+      .cls-2 {
+        font-family: CascadiaCodeRoman-ExtraLight, 'Cascadia Code';
+        font-variation-settings: 'wght' 200;
+        font-weight: 200;
+      }
+
+      .cls-8 {
+        fill: #f15a24;
+        stroke: #c1272d;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        opacity: .8;
+      }
+
+      .cls-13 {
+        fill: #1a1a1a;
+        font-family: Poppins-Medium, Poppins;
+        font-size: 10px;
+        font-weight: 500;
+      }
+
+      .cls-9 {
+        fill: #39b54a;
+        stroke: #006837;
+      }
+
+      .cls-10 {
+        fill: #fbae17;
+        stroke: #f15a24;
+      }
+
+      .cls-11 {
+        fill: #666;
+      }
+
+      .cls-12 {
+        fill: #29abe2;
+        stroke: #0071bc;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-10" x=".5" y="19.74" width="150" height="90"/>
+      <rect class="cls-12" x="725.74" y="19.74" width="150" height="90"/>
+      <rect class="cls-8" x="544.43" y="19.74" width="150" height="90"/>
+      <rect class="cls-11" x="181.81" y="19.74" width="150" height="90"/>
+      <rect class="cls-9" x="363.12" y="19.74" width="150" height="90"/>
+      <text class="cls-13" transform="translate(38.18 60.08)"><tspan x="0" y="0">Frame Storage</tspan><tspan x="5.71" y="12">(Filesystem)</tspan></text>
+      <text class="cls-13" transform="translate(217.35 66.08)"><tspan x="0" y="0">Storage Service</tspan></text>
+      <text class="cls-13" transform="translate(387.1 66.08)"><tspan x="0" y="0">Detector Framework</tspan></text>
+      <text class="cls-13" transform="translate(588.57 60.08)"><tspan x="0" y="0">IPC Channel</tspan><tspan x="-5.33" y="12">(stdin/stdout)</tspan></text>
+      <text class="cls-13" transform="translate(758.38 66.08)"><tspan x="0" y="0">Detector Process</tspan></text>
+      <g>
+        <g>
+          <line class="cls-5" x1="140.11" y1="26.87" x2="185.34" y2="26.87"/>
+          <polygon class="cls-4" points="173.39 37.04 183.57 26.87 173.39 16.7 182.03 16.7 192.2 26.87 182.03 37.04 173.39 37.04"/>
+        </g>
+        <g>
+          <line class="cls-7" x1="142.43" y1="26.87" x2="184.48" y2="26.87"/>
+          <polygon class="cls-3" points="180.5 30.26 183.89 26.87 180.5 23.48 183.38 23.48 186.77 26.87 183.38 30.26 180.5 30.26"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <line class="cls-5" x1="321.42" y1="26.87" x2="366.65" y2="26.87"/>
+          <polygon class="cls-4" points="354.7 37.04 364.88 26.87 354.7 16.7 363.34 16.7 373.51 26.87 363.34 37.04 354.7 37.04"/>
+        </g>
+        <g>
+          <line class="cls-7" x1="323.74" y1="26.87" x2="365.79" y2="26.87"/>
+          <polygon class="cls-3" points="361.81 30.26 365.2 26.87 361.81 23.48 364.69 23.48 368.08 26.87 364.69 30.26 361.81 30.26"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <line class="cls-5" x1="502.73" y1="26.87" x2="547.96" y2="26.87"/>
+          <polygon class="cls-4" points="536.01 37.04 546.19 26.87 536.01 16.7 544.65 16.7 554.82 26.87 544.65 37.04 536.01 37.04"/>
+        </g>
+        <g>
+          <line class="cls-7" x1="505.05" y1="26.87" x2="547.1" y2="26.87"/>
+          <polygon class="cls-3" points="543.12 30.26 546.51 26.87 543.12 23.48 546 23.48 549.39 26.87 546 30.26 543.12 30.26"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <line class="cls-5" x1="683.87" y1="26.87" x2="729.1" y2="26.87"/>
+          <polygon class="cls-4" points="717.15 37.04 727.33 26.87 717.15 16.7 725.79 16.7 735.96 26.87 725.79 37.04 717.15 37.04"/>
+        </g>
+        <g>
+          <line class="cls-7" x1="686.19" y1="26.87" x2="728.24" y2="26.87"/>
+          <polygon class="cls-3" points="724.26 30.26 727.65 26.87 724.26 23.48 727.14 23.48 730.53 26.87 727.14 30.26 724.26 30.26"/>
+        </g>
+      </g>
+      <text class="cls-1" transform="translate(153.93 12.3)"><tspan x="0" y="0">File Path</tspan></text>
+      <text class="cls-1" transform="translate(337.99 5.1)"><tspan x="0" y="0">Path +</tspan><tspan x="-5.16" y="7.2">Metadata</tspan></text>
+      <text class="cls-1" transform="translate(513.82 5.1)"><tspan x="0" y="0">JSON-RPC</tspan><tspan x="2.94" y="7.2">Request</tspan></text>
+      <text class="cls-1" transform="translate(702.28 5.1)"><tspan x="0" y="0">JSON</tspan><tspan x="-5.73" y="7.2">Message</tspan></text>
+      <g>
+        <path class="cls-6" d="M72.65,119.76c-.41,4.87-.18,11.46,2.85,18.04,24.09,52.29,186.38,18.97,355.99-.04,85.94-9.63,212.09-19.88,369.25-18.15"/>
+        <polygon class="cls-3" points="68.98 123.44 72.65 120.35 75.73 124.03 75.98 121.16 72.9 117.49 69.23 120.57 68.98 123.44"/>
+      </g>
+      <text class="cls-1" transform="translate(206.81 142.56)"><tspan x="0" y="0">Direct File Access</tspan></text>
+      <text class="cls-2" transform="translate(107.59 131.74)"><tspan x="0" y="0">{&quot;method&quot;: &quot;detect&quot;,&quot;params&quot;: {&quot;frame_path&quot;: &quot;/path/to/frame.png&quot;, ...}</tspan></text>
+    </g>
+  </g>
+</svg>

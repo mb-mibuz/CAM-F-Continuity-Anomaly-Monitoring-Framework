@@ -1,0 +1,35 @@
+{
+  "detectors": {
+    "ClockDetector": {
+      "name": "ClockDetector",
+      "version": "2.0.0",
+      "installed_at": "2024-01-01T00:00:00Z",
+      "docker_image": "camf-detector-clockdetector:latest",
+      "detector_dir_name": "ClockDetector",
+      "detector_name": "ClockDetector",
+      "detector_version": "2.0.0",
+      "install_timestamp": "2024-01-01T00:00:00Z"
+    },
+    "SpotTheDifferenceDetector": {
+      "name": "SpotTheDifferenceDetector",
+      "version": "1.0.0",
+      "installed_at": "2024-01-01T00:00:00Z",
+      "docker_image": "camf-detector-spotthedifferencedetector:latest",
+      "detector_dir_name": "SpotTheDifferenceDetector",
+      "detector_name": "SpotTheDifferenceDetector",
+      "detector_version": "1.0.0",
+      "install_timestamp": "2024-01-01T00:00:00Z"
+    },
+    "TestErrorDetector": {
+      "name": "TestErrorDetector",
+      "version": "1.0.0",
+      "installed_at": "2024-01-01T00:00:00Z",
+      "docker_image": "camf-detector-testerrordetector:latest",
+      "detector_dir_name": "TestErrorDetector",
+      "detector_name": "TestErrorDetector",
+      "detector_version": "1.0.0",
+      "install_timestamp": "2024-01-01T00:00:00Z"
+    }
+  },
+  "installations": []
+}

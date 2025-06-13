@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 975.52 773.31">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2 {
+        fill: #6f6f6f;
+      }
+
+      .st1, .st3, .st4, .st5, .st6, .st2 {
+        isolation: isolate;
+      }
+
+      .st1, .st3, .st4, .st6, .st2 {
+        font-size: 13px;
+      }
+
+      .st1, .st4, .st7 {
+        font-family: OpenSans, 'Open Sans';
+      }
+
+      .st3, .st4 {
+        fill: #999;
+      }
+
+      .st3, .st6, .st2 {
+        font-family: OpenSans-Bold, 'Open Sans';
+        font-weight: 700;
+      }
+
+      .st8 {
+        fill: #f2f2f2;
+      }
+
+      .st9 {
+        fill: none;
+        stroke: #9b9ca4;
+      }
+
+      .st10 {
+        fill: #29abe2;
+        opacity: .9;
+      }
+
+      .st6 {
+        fill: #fff;
+      }
+
+      .st7 {
+        font-size: 14px;
+      }
+
+      .st11 {
+        fill: #dedede;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="st9" d="M347.12,50h-51.09c-6.67,0-10,3.33-10,10v119.46c0,6.67-3.33,10-10,10h-51.09,51.09c6.67,0,10-3.33,10-10V60c0-6.67,3.33-10,10-10h51.09ZM347.12,50h10M224.93,189.46h-10M347.12,46v8M214.93,185.46l9,4-9,4"/>
+    <g class="st5">
+      <text class="st7" transform="translate(346.11 45)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g class="st5">
+      <text class="st7" transform="translate(217.93 184.46)"><tspan x="0" y="0">*</tspan></text>
+    </g>
+  </g>
+  <g>
+    <path class="st9" d="M224.93,157.46h18.37c5.58,0,8.37,2.79,8.37,8.37v436.08c0,3.33-1.67,5-5,5h-5,5c3.33,0,5-1.67,5-5V165.83c0-5.58-2.79-8.37-8.37-8.37h-18.37ZM224.93,157.46h-10M241.67,606.92h-10M224.93,153.46v8M231.67,602.92l9,4-9,4"/>
+    <g class="st5">
+      <text class="st7" transform="translate(217.93 152.46)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g class="st5">
+      <text class="st7" transform="translate(234.67 601.92)"><tspan x="0" y="0">*</tspan></text>
+    </g>
+  </g>
+  <g>
+    <path class="st9" d="M341.72,373.95h-43.09c-6.67,0-10,3.33-10,10v276.97c0,6.67-3.33,10-10,10h-36.96,36.96c6.67,0,10-3.33,10-10v-276.97c0-6.67,3.33-10,10-10h43.09ZM347.72,373.95h10M241.67,670.92h-10M347.72,373.95l-.06.59-.17.56-.28.52-.37.45-.45.37-.52.28-.56.17-.59.06-.59-.06-.56-.17-.52-.28-.45-.37-.37-.45-.28-.52-.17-.56-.06-.59.06-.59.17-.56.28-.52.37-.45.45-.37.52-.28.56-.17.59-.06.59.06.56.17.52.28.45.37.37.45.28.52.17.56.06.59M231.67,666.92l9,4-9,4"/>
+    <g class="st5">
+      <text class="st7" transform="translate(331.35 368.95)"><tspan x="0" y="0">0..1</tspan></text>
+    </g>
+    <g class="st5">
+      <text class="st7" transform="translate(234.67 665.92)"><tspan x="0" y="0">*</tspan></text>
+    </g>
+  </g>
+  <g>
+    <path class="st9" d="M241.67,574.92h72.88c6.67,0,10-3.33,10-10v-152.39c0-4.39,2.19-6.58,6.58-6.58h16.58-16.58c-4.39,0-6.58,2.19-6.58,6.58v152.39c0,6.67-3.33,10-10,10h-72.88ZM241.67,574.92h-10M347.72,405.95h10M241.67,570.92v8M357.72,401.95l-9,4,9,4"/>
+    <g class="st5">
+      <text class="st7" transform="translate(234.67 569.92)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g class="st5">
+      <text class="st7" transform="translate(347.01 400.95)"><tspan x="0" y="0">*</tspan></text>
+    </g>
+  </g>
+  <g>
+    <path class="st9" d="M583.15,373.95h46.06c6.67,0,10-3.33,10-10v-226.84c0-6.67,3.33-10,10-10h70.3-70.3c-6.67,0-10,3.33-10,10v226.84c0,6.67-3.33,10-10,10h-46.06ZM583.15,373.95h-10M719.51,127.11h10M583.15,369.95v8M729.51,123.11l-9,4,9,4"/>
+    <g class="st5">
+      <text class="st7" transform="translate(576.15 368.95)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g class="st5">
+      <text class="st7" transform="translate(718.8 122.11)"><tspan x="0" y="0">*</tspan></text>
+    </g>
+  </g>
+  <g>
+    <g class="st5">
+      <text class="st7" transform="translate(576.15 368.95)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g class="st5">
+      <text class="st7" transform="translate(682.86 368.31)"><tspan x="0" y="0">*</tspan></text>
+    </g>
+  </g>
+  <rect class="st10" x="357.12" y="2" width="216.64" height="32"/>
+  <text class="st6" transform="translate(367.12 21.25)"><tspan x="0" y="0">projects</tspan></text>
+  <rect class="st8" x="357.12" y="34" width="216.64" height="32"/>
+  <text class="st2" transform="translate(367.12 53.25)"><tspan x="0" y="0">id</tspan></text>
+  <path class="st0" d="M389.87,44.23c1.63,0,2.95,1.32,2.95,2.95s-1.32,2.95-2.95,2.95c-.39,0-.76-.08-1.1-.21l-.87.87h-.66v.98h-.98v.98h-1.97v-1.97l2.75-2.75c-.08-.28-.13-.57-.13-.86,0-1.63,1.32-2.95,2.95-2.95ZM389.87,43.25c-2.17,0-3.94,1.76-3.94,3.94,0,.18.01.36.04.54l-2.52,2.52c-.09.09-.14.22-.14.35v2.66c0,.27.22.49.49.49h2.95c.27,0,.49-.22.49-.49v-.49h.49c.27,0,.49-.22.49-.49v-.41l.82-.82c.27.06.54.09.82.09,2.17,0,3.94-1.76,3.94-3.94s-1.76-3.94-3.94-3.94ZM389.87,46.2c0,.54.44.98.98.98s.98-.44.98-.98-.44-.98-.98-.98-.98.44-.98.98Z"/>
+  <text class="st3" transform="translate(516.99 53.25)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" x="357.12" y="66" width="216.64" height="32"/>
+  <text class="st1" transform="translate(367.12 85.25)"><tspan x="0" y="0">name</tspan></text>
+  <path class="st11" d="M541.75,72.5h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M550.57,85h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M559.75,85h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(489.99 85.25)"><tspan x="0" y="0">varchar</tspan></text>
+  <rect class="st8" x="357.12" y="98" width="216.64" height="32"/>
+  <text class="st1" transform="translate(367.12 117.25)"><tspan x="0" y="0">created_at</tspan></text>
+  <text class="st4" transform="translate(509.39 117.25)"><tspan x="0" y="0">datetime</tspan></text>
+  <rect class="st8" x="357.12" y="130" width="216.64" height="32"/>
+  <text class="st1" transform="translate(367.12 149.25)"><tspan x="0" y="0">last_modified</tspan></text>
+  <text class="st4" transform="translate(509.39 149.25)"><tspan x="0" y="0">datetime</tspan></text>
+  <rect class="st8" x="357.12" y="162" width="216.64" height="32"/>
+  <text class="st1" transform="translate(367.12 181.25)"><tspan x="0" y="0">metadata</tspan></text>
+  <text class="st4" transform="translate(538.48 181.25)"><tspan x="0" y="0">json</tspan></text>
+  <rect class="st10" x="5.31" y="109.46" width="209.62" height="32"/>
+  <text class="st6" transform="translate(15.31 128.71)"><tspan x="0" y="0">scenes</tspan></text>
+  <rect class="st8" x="5.31" y="141.46" width="209.62" height="32"/>
+  <text class="st2" transform="translate(15.31 160.71)"><tspan x="0" y="0">id</tspan></text>
+  <path class="st0" d="M38.06,151.69c1.63,0,2.95,1.32,2.95,2.95s-1.32,2.95-2.95,2.95c-.39,0-.76-.08-1.1-.21l-.87.87h-.66v.98h-.98v.98h-1.97v-1.97l2.75-2.75c-.08-.28-.13-.57-.13-.86,0-1.63,1.32-2.95,2.95-2.95ZM38.06,150.71c-2.17,0-3.94,1.76-3.94,3.94,0,.18.01.36.04.54l-2.52,2.52c-.09.09-.14.22-.14.35v2.66c0,.27.22.49.49.49h2.95c.27,0,.49-.22.49-.49v-.49h.49c.27,0,.49-.22.49-.49v-.41l.82-.82c.27.06.54.09.82.09,2.17,0,3.94-1.76,3.94-3.94s-1.76-3.94-3.94-3.94ZM38.06,153.66c0,.54.44.98.98.98s.98-.44.98-.98-.44-.98-.98-.98-.98.44-.98.98Z"/>
+  <text class="st3" transform="translate(158.17 160.71)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" x="5.31" y="173.46" width="209.62" height="32"/>
+  <text class="st1" transform="translate(15.31 192.71)"><tspan x="0" y="0">project_id</tspan></text>
+  <path class="st11" d="M182.93,179.96h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M191.74,192.46h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M200.93,192.46h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(134.07 192.71)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" x="5.31" y="205.46" width="209.62" height="32"/>
+  <text class="st1" transform="translate(15.31 224.71)"><tspan x="0" y="0">name</tspan></text>
+  <path class="st11" d="M182.93,211.96h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M191.74,224.46h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M200.93,224.46h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(131.16 224.71)"><tspan x="0" y="0">varchar</tspan></text>
+  <rect class="st8" x="5.31" y="237.46" width="209.62" height="32"/>
+  <text class="st1" transform="translate(15.31 256.71)"><tspan x="0" y="0">frame_rate</tspan></text>
+  <text class="st4" transform="translate(177.6 256.71)"><tspan x="0" y="0">float</tspan></text>
+  <rect class="st8" x="5.31" y="269.46" width="209.62" height="32"/>
+  <text class="st1" transform="translate(15.31 288.71)"><tspan x="0" y="0">resolution</tspan></text>
+  <text class="st4" transform="translate(159.16 288.71)"><tspan x="0" y="0">varchar</tspan></text>
+  <rect class="st8" x="5.31" y="301.46" width="209.62" height="32"/>
+  <text class="st1" transform="translate(15.31 320.71)"><tspan x="0" y="0">detector_settings</tspan></text>
+  <text class="st4" transform="translate(179.66 320.71)"><tspan x="0" y="0">json</tspan></text>
+  <rect class="st8" x="5.31" y="333.46" width="209.62" height="32"/>
+  <text class="st1" transform="translate(15.31 352.71)"><tspan x="0" y="0">metadata</tspan></text>
+  <text class="st4" transform="translate(179.66 352.71)"><tspan x="0" y="0">json</tspan></text>
+  <rect class="st8" x="5.31" y="365.46" width="209.62" height="32"/>
+  <text class="st1" transform="translate(15.31 384.71)"><tspan x="0" y="0">created_at</tspan></text>
+  <text class="st4" transform="translate(150.57 384.71)"><tspan x="0" y="0">datetime</tspan></text>
+  <rect class="st10" y="526.92" width="231.67" height="32"/>
+  <text class="st6" transform="translate(10 546.17)"><tspan x="0" y="0">angles</tspan></text>
+  <rect class="st8" y="558.92" width="231.67" height="32"/>
+  <text class="st2" transform="translate(10 578.17)"><tspan x="0" y="0">id</tspan></text>
+  <path class="st0" d="M32.76,569.15c1.63,0,2.95,1.32,2.95,2.95s-1.32,2.95-2.95,2.95c-.39,0-.76-.08-1.1-.21l-.87.87h-.66v.98h-.98v.98h-1.97v-1.97l2.75-2.75c-.08-.28-.13-.57-.13-.86,0-1.63,1.32-2.95,2.95-2.95ZM32.76,568.17c-2.17,0-3.94,1.76-3.94,3.94,0,.18.01.36.04.54l-2.52,2.52c-.09.09-.14.22-.14.35v2.66c0,.27.22.49.49.49h2.95c.27,0,.49-.22.49-.49v-.49h.49c.27,0,.49-.22.49-.49v-.41l.82-.82c.27.06.54.09.82.09,2.17,0,3.94-1.76,3.94-3.94s-1.76-3.94-3.94-3.94ZM32.76,571.12c0,.54.44.98.98.98s.98-.44.98-.98-.44-.98-.98-.98-.98.44-.98.98Z"/>
+  <text class="st3" transform="translate(174.91 578.17)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" y="590.92" width="231.67" height="32"/>
+  <text class="st1" transform="translate(10 610.17)"><tspan x="0" y="0">scene_id</tspan></text>
+  <path class="st11" d="M199.67,597.42h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M208.49,609.92h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M217.67,609.92h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(150.82 610.17)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" y="622.92" width="231.67" height="32"/>
+  <text class="st1" transform="translate(10 642.17)"><tspan x="0" y="0">name</tspan></text>
+  <path class="st11" d="M199.67,629.42h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M208.49,641.92h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M217.67,641.92h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(147.91 642.17)"><tspan x="0" y="0">varchar</tspan></text>
+  <rect class="st8" y="654.92" width="231.67" height="32"/>
+  <text class="st1" transform="translate(10 674.17)"><tspan x="0" y="0">reference_take_id</tspan></text>
+  <text class="st4" transform="translate(178.82 674.17)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" y="686.92" width="231.67" height="32"/>
+  <text class="st1" transform="translate(10 706.17)"><tspan x="0" y="0">metadata</tspan></text>
+  <text class="st4" transform="translate(196.4 706.17)"><tspan x="0" y="0">json</tspan></text>
+  <rect class="st10" x="357.72" y="325.95" width="215.43" height="32"/>
+  <text class="st6" transform="translate(367.72 345.2)"><tspan x="0" y="0">takes</tspan></text>
+  <rect class="st8" x="357.72" y="357.95" width="215.43" height="32"/>
+  <text class="st2" transform="translate(367.72 377.2)"><tspan x="0" y="0">id</tspan></text>
+  <path class="st0" d="M390.48,368.18c1.63,0,2.95,1.32,2.95,2.95s-1.32,2.95-2.95,2.95c-.39,0-.76-.08-1.1-.21l-.87.87h-.66v.98h-.98v.98h-1.97v-1.97l2.75-2.75c-.08-.28-.13-.57-.13-.86,0-1.63,1.32-2.95,2.95-2.95ZM390.48,367.2c-2.17,0-3.94,1.76-3.94,3.94,0,.18.01.36.04.54l-2.52,2.52c-.09.09-.14.22-.14.35v2.66c0,.27.22.49.49.49h2.95c.27,0,.49-.22.49-.49v-.49h.49c.27,0,.49-.22.49-.49v-.41l.82-.82c.27.06.54.09.82.09,2.17,0,3.94-1.76,3.94-3.94s-1.76-3.94-3.94-3.94ZM390.48,370.15c0,.54.44.98.98.98s.98-.44.98-.98-.44-.98-.98-.98-.98.44-.98.98Z"/>
+  <text class="st3" transform="translate(516.39 377.2)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" x="357.72" y="389.95" width="215.43" height="32"/>
+  <text class="st1" transform="translate(367.72 409.2)"><tspan x="0" y="0">angle_id</tspan></text>
+  <path class="st11" d="M541.15,396.45h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M549.96,408.95h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M559.15,408.95h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(492.29 409.2)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" x="357.72" y="421.95" width="215.43" height="32"/>
+  <text class="st1" transform="translate(367.72 441.2)"><tspan x="0" y="0">name</tspan></text>
+  <path class="st11" d="M541.15,428.45h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M549.96,440.95h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M559.15,440.95h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(489.39 441.2)"><tspan x="0" y="0">varchar</tspan></text>
+  <rect class="st8" x="357.72" y="453.95" width="215.43" height="32"/>
+  <text class="st1" transform="translate(367.72 473.2)"><tspan x="0" y="0">is_reference</tspan></text>
+  <text class="st4" transform="translate(513.78 473.2)"><tspan x="0" y="0">boolean</tspan></text>
+  <rect class="st8" x="357.72" y="485.95" width="215.43" height="32"/>
+  <text class="st1" transform="translate(367.72 505.2)"><tspan x="0" y="0">start_time</tspan></text>
+  <text class="st4" transform="translate(508.79 505.2)"><tspan x="0" y="0">datetime</tspan></text>
+  <rect class="st8" x="357.72" y="517.95" width="215.43" height="32"/>
+  <text class="st1" transform="translate(367.72 537.2)"><tspan x="0" y="0">end_time</tspan></text>
+  <text class="st4" transform="translate(508.79 537.2)"><tspan x="0" y="0">datetime</tspan></text>
+  <rect class="st8" x="357.72" y="549.95" width="215.43" height="32"/>
+  <text class="st1" transform="translate(367.72 569.2)"><tspan x="0" y="0">notes</tspan></text>
+  <text class="st4" transform="translate(539.78 569.2)"><tspan x="0" y="0">text</tspan></text>
+  <rect class="st8" x="357.72" y="581.95" width="215.43" height="32"/>
+  <text class="st1" transform="translate(367.72 601.2)"><tspan x="0" y="0">metadata</tspan></text>
+  <text class="st4" transform="translate(537.88 601.2)"><tspan x="0" y="0">json</tspan></text>
+  <rect class="st8" x="357.72" y="613.95" width="215.43" height="32"/>
+  <text class="st1" transform="translate(367.72 633.2)"><tspan x="0" y="0">created_at</tspan></text>
+  <text class="st4" transform="translate(508.79 633.2)"><tspan x="0" y="0">datetime</tspan></text>
+  <rect class="st10" x="729.51" y="47.11" width="241.01" height="32"/>
+  <text class="st6" transform="translate(739.51 66.36)"><tspan x="0" y="0">frames</tspan></text>
+  <rect class="st8" x="729.51" y="79.11" width="241.01" height="32"/>
+  <text class="st2" transform="translate(739.51 98.36)"><tspan x="0" y="0">id</tspan></text>
+  <path class="st0" d="M762.27,89.34c1.63,0,2.95,1.32,2.95,2.95s-1.32,2.95-2.95,2.95c-.39,0-.76-.08-1.1-.21l-.87.87h-.66v.98h-.98v.98h-1.97v-1.97l2.75-2.75c-.08-.28-.13-.57-.13-.86,0-1.63,1.32-2.95,2.95-2.95ZM762.27,88.36c-2.17,0-3.94,1.76-3.94,3.94,0,.18.01.36.04.54l-2.52,2.52c-.09.09-.14.22-.14.35v2.66c0,.27.22.49.49.49h2.95c.27,0,.49-.22.49-.49v-.49h.49c.27,0,.49-.22.49-.49v-.41l.82-.82c.27.06.54.09.82.09,2.17,0,3.94-1.76,3.94-3.94s-1.76-3.94-3.94-3.94ZM762.27,91.31c0,.54.44.98.98.98s.98-.44.98-.98-.44-.98-.98-.98-.98.44-.98.98Z"/>
+  <text class="st3" transform="translate(913.75 98.36)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" x="729.51" y="111.11" width="241.01" height="32"/>
+  <text class="st1" transform="translate(739.51 130.36)"><tspan x="0" y="0">take_id</tspan></text>
+  <path class="st11" d="M938.52,117.61h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M947.33,130.11h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M956.52,130.11h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(889.66 130.36)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" x="729.51" y="143.11" width="241.01" height="32"/>
+  <text class="st1" transform="translate(739.51 162.36)"><tspan x="0" y="0">frame_number</tspan></text>
+  <path class="st11" d="M938.52,149.61h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M947.33,162.11h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M956.52,162.11h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(889.66 162.36)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" x="729.51" y="175.11" width="241.01" height="32"/>
+  <text class="st1" transform="translate(739.51 194.36)"><tspan x="0" y="0">timestamp</tspan></text>
+  <path class="st11" d="M938.52,181.61h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M947.33,194.11h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M956.52,194.11h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(905.18 194.36)"><tspan x="0" y="0">float</tspan></text>
+  <rect class="st8" x="729.51" y="207.11" width="241.01" height="32"/>
+  <text class="st1" transform="translate(739.51 226.36)"><tspan x="0" y="0">path</tspan></text>
+  <path class="st11" d="M938.52,213.61h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M947.33,226.11h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M956.52,226.11h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(856.78 226.36)"><tspan x="0" y="0">varchar(512)</tspan></text>
+  <rect class="st10" x="693.57" y="293.31" width="276.94" height="32"/>
+  <text class="st6" transform="translate(703.57 312.56)"><tspan x="0" y="0">detector_results</tspan></text>
+  <rect class="st8" x="693.57" y="325.31" width="276.94" height="32"/>
+  <text class="st2" transform="translate(703.57 344.56)"><tspan x="0" y="0">id</tspan></text>
+  <path class="st0" d="M726.33,335.54c1.63,0,2.95,1.32,2.95,2.95s-1.32,2.95-2.95,2.95c-.39,0-.76-.08-1.1-.21l-.87.87h-.66v.98h-.98v.98h-1.97v-1.97l2.75-2.75c-.08-.28-.13-.57-.13-.86,0-1.63,1.32-2.95,2.95-2.95ZM726.33,334.56c-2.17,0-3.94,1.76-3.94,3.94,0,.18.01.36.04.54l-2.52,2.52c-.09.09-.14.22-.14.35v2.66c0,.27.22.49.49.49h2.95c.27,0,.49-.22.49-.49v-.49h.49c.27,0,.49-.22.49-.49v-.41l.82-.82c.27.06.54.09.82.09,2.17,0,3.94-1.76,3.94-3.94s-1.76-3.94-3.94-3.94ZM726.33,337.51c0,.54.44.98.98.98s.98-.44.98-.98-.44-.98-.98-.98-.98.44-.98.98Z"/>
+  <text class="st3" transform="translate(913.75 344.56)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" x="693.57" y="357.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 376.56)"><tspan x="0" y="0">take_id</tspan></text>
+  <path class="st11" d="M938.52,363.81h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M947.33,376.31h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M956.52,376.31h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(889.66 376.56)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" x="693.57" y="389.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 408.56)"><tspan x="0" y="0">frame_id</tspan></text>
+  <path class="st11" d="M938.52,395.81h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M947.33,408.31h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M956.52,408.31h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(889.66 408.56)"><tspan x="0" y="0">integer</tspan></text>
+  <rect class="st8" x="693.57" y="421.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 440.56)"><tspan x="0" y="0">detector_name</tspan></text>
+  <path class="st11" d="M938.52,427.81h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M947.33,440.31h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M956.52,440.31h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(856.78 440.56)"><tspan x="0" y="0">varchar(100)</tspan></text>
+  <rect class="st8" x="693.57" y="453.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 472.56)"><tspan x="0" y="0">confidence</tspan></text>
+  <path class="st11" d="M938.52,459.81h20s2,0,2,2v12s0,2-2,2h-20s-2,0-2-2v-12s0-2,2-2"/>
+  <path class="st0" d="M947.33,472.31h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <path class="st0" d="M956.52,472.31h-1.17l-4.75-7.56h-.05c.01.2.03.43.04.69.02.25.03.53.04.82.01.29.02.58.02.88v5.17h-.94v-9h1.16l4.73,7.53h.04c0-.14-.02-.35-.03-.61-.01-.27-.02-.55-.04-.86,0-.31-.01-.59-.01-.86v-5.21h.95v9Z"/>
+  <text class="st4" transform="translate(905.18 472.56)"><tspan x="0" y="0">float</tspan></text>
+  <rect class="st8" x="693.57" y="485.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 504.56)"><tspan x="0" y="0">description</tspan></text>
+  <text class="st4" transform="translate(937.14 504.56)"><tspan x="0" y="0">text</tspan></text>
+  <rect class="st8" x="693.57" y="517.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 536.56)"><tspan x="0" y="0">bounding_boxes</tspan></text>
+  <text class="st4" transform="translate(935.25 536.56)"><tspan x="0" y="0">json</tspan></text>
+  <rect class="st8" x="693.57" y="549.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 568.56)"><tspan x="0" y="0">error_group_id</tspan></text>
+  <text class="st4" transform="translate(884.78 568.56)"><tspan x="0" y="0">varchar(255)</tspan></text>
+  <rect class="st8" x="693.57" y="581.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 600.56)"><tspan x="0" y="0">is_continuous_start</tspan></text>
+  <text class="st4" transform="translate(911.14 600.56)"><tspan x="0" y="0">boolean</tspan></text>
+  <rect class="st8" x="693.57" y="613.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 632.56)"><tspan x="0" y="0">is_continuous_end</tspan></text>
+  <text class="st4" transform="translate(911.14 632.56)"><tspan x="0" y="0">boolean</tspan></text>
+  <rect class="st8" x="693.57" y="645.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 664.56)"><tspan x="0" y="0">is_false_positive</tspan></text>
+  <text class="st4" transform="translate(911.14 664.56)"><tspan x="0" y="0">boolean</tspan></text>
+  <rect class="st8" x="693.57" y="677.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 696.56)"><tspan x="0" y="0">false_positive_reason</tspan></text>
+  <text class="st4" transform="translate(937.14 696.56)"><tspan x="0" y="0">text</tspan></text>
+  <rect class="st8" x="693.57" y="709.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 728.56)"><tspan x="0" y="0">metadata</tspan></text>
+  <text class="st4" transform="translate(935.25 728.56)"><tspan x="0" y="0">json</tspan></text>
+  <rect class="st8" x="693.57" y="741.31" width="276.94" height="32"/>
+  <text class="st1" transform="translate(703.57 760.56)"><tspan x="0" y="0">created_at</tspan></text>
+  <text class="st4" transform="translate(906.15 760.56)"><tspan x="0" y="0">datetime</tspan></text>
+</svg>

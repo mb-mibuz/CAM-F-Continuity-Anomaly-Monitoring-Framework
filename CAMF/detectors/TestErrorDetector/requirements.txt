@@ -1,0 +1,2 @@
+# No special requirements for test detector
+# Uses only standard library and CAMF common modules

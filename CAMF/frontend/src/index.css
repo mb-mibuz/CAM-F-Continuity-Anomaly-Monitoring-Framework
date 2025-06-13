@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  overflow: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c4c4c4;
+}
+
+/* Disable text selection on UI elements */
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Custom title bar drag region */
+.titlebar-drag-region {
+  -webkit-app-region: drag;
+}
+
+/* Ensure text truncation works properly */
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  min-width: 0;
+}
+
+.titlebar-no-drag {
+  -webkit-app-region: no-drag;
+}
+
+/* Button hover effects */
+.btn-hover:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+/* Custom line separator */
+.separator-line {
+  height: 0.25px;
+  background-color: #000000;
+}
+
+/* Card hover effect */
+.card-hover:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+/* Window resize borders */
+.resize-border {
+  position: fixed;
+  -webkit-app-region: no-drag;
+}
+
+/* Top resize border */
+.resize-border-top {
+  top: 0;
+  left: 8px;
+  right: 8px;
+  height: 8px;
+  cursor: ns-resize;
+}
+
+/* Bottom resize border */
+.resize-border-bottom {
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 8px;
+  cursor: ns-resize;
+}
+
+/* Left resize border */
+.resize-border-left {
+  top: 8px;
+  left: 0;
+  bottom: 8px;
+  width: 8px;
+  cursor: ew-resize;
+}
+
+/* Right resize border */
+.resize-border-right {
+  top: 8px;
+  right: 0;
+  bottom: 8px;
+  width: 8px;
+  cursor: ew-resize;
+}
+
+/* Corner resize borders */
+.resize-border-topleft {
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  cursor: nw-resize;
+}
+
+.resize-border-topright {
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  cursor: ne-resize;
+}
+
+.resize-border-bottomleft {
+  bottom: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  cursor: sw-resize;
+}
+
+.resize-border-bottomright {
+  bottom: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  cursor: se-resize;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
+/* Notes Editor Styles */
+
+/* Remove focus outline on contenteditable */
+.notes-editor:focus {
+  outline: none;
+}
+
+/* Contenteditable placeholder */
+.notes-editor:empty:before {
+  content: attr(placeholder);
+  color: #9CA3AF;
+  font-style: italic;
+  pointer-events: none;
+  display: block;
+}
+
+/* Make sure contenteditable preserves formatting */
+.notes-editor {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Proper list styling - using browser defaults */
+.notes-editor ul {
+  margin: 0;
+  padding-left: 24px;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+.notes-editor ul li {
+  margin: 4px 0;
+  padding-left: 4px;
+}
+
+/* Nested lists */
+.notes-editor ul ul {
+  padding-left: 24px;
+}
+
+/* Ensure proper spacing between paragraphs */
+.notes-editor p {
+  margin: 8px 0;
+}
+
+/* Empty paragraphs for spacing */
+.notes-editor p:empty:not(:last-child) {
+  min-height: 1em;
+}
+
+/* Style for frame links in notes */
+.frame-link {
+  color: #515151;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.frame-link:hover {
+  opacity: 0.8;
+}
+
+/* Ensure formatting is visible */
+.notes-editor strong,
+.notes-editor b {
+  font-weight: 600;
+}
+
+.notes-editor em,
+.notes-editor i {
+  font-style: italic;
+}
+
+.notes-editor u {
+  text-decoration: underline;
+}
+
+.notes-editor del,
+.notes-editor s {
+  text-decoration: line-through;
+}
+
+/* Remove default margins from elements inside editor */
+.notes-editor > *:first-child {
+  margin-top: 0;
+}
+
+.notes-editor > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Ensure dropdowns are always on top */
+.dropdown-menu {
+  position: absolute;
+  z-index: 9999 !important;
+}
+
+/* Fix for overlapping elements */
+.relative {
+  position: relative;
+}
+
+/* Logo styling */
+.titlebar-logo {
+  max-height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Optional: Add dark mode support for logo */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --logo-filter: invert(1);
+  }
+}
+
+/* Range input styling */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+  height: 20px; /* Give enough height for the thumb */
+  padding: 0;
+  margin: 0;
+}
+
+/* Track styling */
+input[type="range"]::-webkit-slider-track {
+  height: 2px;
+  border-radius: 1px;
+  background: transparent; /* Let the gradient show through */
+}
+
+input[type="range"]::-moz-range-track {
+  height: 2px;
+  border-radius: 1px;
+  background: transparent;
+}
+
+/* Thumb styling */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #515151;
+  cursor: pointer;
+  margin-top: -6px; /* Center with 2px track: (14-2)/2 = 6 */
+  transition: all 0.15s ease;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #515151;
+  cursor: pointer;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  transition: all 0.15s ease;
+}
+
+/* Hover state */
+input[type="range"]:hover::-webkit-slider-thumb {
+  background: #000000;
+  transform: scale(1.1);
+}
+
+input[type="range"]:hover::-moz-range-thumb {
+  background: #000000;
+  transform: scale(1.1);
+}
+
+/* Focus state */
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 3px rgba(81, 81, 81, 0.2);
+}
+
+input[type="range"]:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 3px rgba(81, 81, 81, 0.2);
+}
+
+/* Disabled state */
+input[type="range"]:disabled {
+  cursor: not-allowed;
+}
+
+input[type="range"]:disabled::-webkit-slider-thumb {
+  background: #d1d5db;
+  cursor: not-allowed;
+}
+
+input[type="range"]:disabled::-moz-range-thumb {
+  background: #d1d5db;
+  cursor: not-allowed;
+}
+
+/* Fullscreen modal styles */
+.fullscreen-modal {
+  @apply fixed inset-0 z-[100];
+}
+
+.fullscreen-modal .modal-content {
+  @apply w-full h-full bg-gray-900;
+}
+
+/* Custom scrollbar for fullscreen modal */
+.fullscreen-modal ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.fullscreen-modal ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.fullscreen-modal ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.fullscreen-modal ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Firefox scrollbar styling */
+.fullscreen-modal * {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.3);
+}
+
+/* Fullscreen modal slider styling */
+.fullscreen-modal input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #E5E7EB;
+  cursor: pointer;
+  margin-top: -6px;
+  transition: all 0.15s ease;
+  border: 1px solid #374151;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.fullscreen-modal input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #E5E7EB;
+  cursor: pointer;
+  border: 1px solid #374151;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  transition: all 0.15s ease;
+}
+
+.fullscreen-modal input[type="range"]:hover::-webkit-slider-thumb {
+  background: #FFFFFF;
+  transform: scale(1.1);
+}
+
+.fullscreen-modal input[type="range"]:hover::-moz-range-thumb {
+  background: #FFFFFF;
+  transform: scale(1.1);
+}
+
+.fullscreen-modal input[type="range"]:disabled::-webkit-slider-thumb {
+  background: #6B7280;
+  cursor: not-allowed;
+}
+
+.fullscreen-modal input[type="range"]:disabled::-moz-range-thumb {
+  background: #6B7280;
+  cursor: not-allowed;
+}

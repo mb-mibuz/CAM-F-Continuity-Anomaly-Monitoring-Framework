@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  overflow: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c4c4c4;
+}
+
+/* Disable text selection on UI elements */
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Custom title bar drag region */
+.titlebar-drag-region {
+  -webkit-app-region: drag;
+}
+
+.titlebar-no-drag {
+  -webkit-app-region: no-drag;
+}
+
+/* Ensure pointer events work properly in drag regions */
+.titlebar-drag-region * {
+  /* By default, all children in drag region should not capture events */
+  pointer-events: none;
+}
+
+.titlebar-drag-region .titlebar-no-drag,
+.titlebar-drag-region .titlebar-no-drag * {
+  /* Re-enable pointer events for interactive areas */
+  pointer-events: auto;
+  -webkit-app-region: no-drag;
+}
+
+/* Button hover effects */
+.btn-hover:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+/* Custom line separator */
+.separator-line {
+  height: 0.25px;
+  background-color: #000000;
+}
+
+/* Card hover effect */
+.card-hover:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+/* Ensure the logo text doesn't interfere with dragging */
+.pointer-events-none {
+  pointer-events: none;
+}

@@ -1,0 +1,113 @@
+# CAMF (Continuity Assistance and Monitoring Framework) Requirements
+# Python 3.10+ required
+
+# Core Web Framework & API
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+starlette>=0.27.0
+sse-starlette>=1.6.0
+python-multipart>=0.0.6
+
+# Database & ORM
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# HTTP & Networking
+httpx>=0.25.0
+aiohttp>=3.9.0
+requests>=2.31.0
+aiofiles>=23.2.0
+
+# Data Validation & Serialization
+pydantic>=2.4.0
+msgpack>=1.0.0
+pyyaml>=6.0
+
+# Image & Video Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0,<2.0.0
+
+# Screen Capture & Window Management
+mss>=9.0.0
+pygetwindow>=0.0.9
+pyautogui>=0.9.54
+screeninfo>=0.8.1
+
+# System & Process Management
+psutil>=5.9.0
+docker>=6.1.0
+watchdog>=3.0.0
+
+# PDF Generation & Reporting
+reportlab>=4.0.0
+jinja2>=3.1.0
+
+# CLI & Utilities
+click>=8.1.0
+python-dotenv>=1.0.0
+semver>=3.0.0
+
+# Platform-specific Dependencies
+pywin32>=306; sys_platform=='win32'
+pyobjc-framework-Cocoa>=9.2; sys_platform=='darwin'
+pyobjc-framework-Quartz>=9.2; sys_platform=='darwin'
+python-xlib>=0.33; sys_platform=='linux'
+
+# Optional: Service Discovery & Metrics
+# python-consul>=1.1.0
+# redis>=5.0.0
+# prometheus-client>=0.18.0
+
+# Optional: OCR Capabilities (for detector use)
+# easyocr>=1.7.0
+# pytesseract>=0.3.10
+
+# Optional: ML/AI Libraries (for detector use)
+# torch>=2.0.0
+# torchvision>=0.15.0
+# transformers>=4.35.0
+# sentence-transformers>=2.2.0
+
+# Development & Testing Dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-xdist>=3.3.0
+pytest-timeout>=2.1.0
+pytest-mock>=3.11.0
+pytest-json-report>=1.5.0
+pytest-benchmark>=4.0.0
+# pytest-sqlite>=0.2.0  # Not available in PyPI
+pytest-html>=3.2.0
+hypothesis>=6.82.0
+responses>=0.23.3
+requests-mock>=1.11.0
+freezegun>=1.2.2
+faker>=19.0.0
+factory-boy>=3.3.0
+sqlalchemy-utils>=0.41.1
+
+# Code Quality & Linting
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.4.1
+pylint>=2.17.5
+bandit>=1.7.5
+safety>=2.3.5
+
+# Profiling & Performance
+memory-profiler>=0.61.0
+py-spy>=0.3.14
+line-profiler>=4.1.0
+
+# Testing Reports
+allure-pytest>=2.13.2
+coverage[toml]>=7.3.0
+
+# Messaging (if using ZeroMQ)
+pyzmq>=25.1.0
+
+# Job Scheduling
+schedule>=1.2.0

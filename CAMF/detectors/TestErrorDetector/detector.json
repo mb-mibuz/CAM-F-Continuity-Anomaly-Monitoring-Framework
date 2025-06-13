@@ -1,0 +1,50 @@
+{
+  "name": "TestErrorDetector",
+  "display_name": "Test Error Detector",
+  "version": "1.0.0",
+  "description": "Generates test errors for UI testing and deduplication verification",
+  "author": "CAMF Development",
+  "entry_point": "detector.py",
+  "language": "python",
+  "requirements": [],
+  "capabilities": {
+    "supports_frame_pairs": true,
+    "supports_batch": false,
+    "supports_real_time": true,
+    "max_batch_size": 1
+  },
+  "configuration": {
+    "processing_delay_ms": {
+      "type": "integer",
+      "default": 500,
+      "min": 100,
+      "max": 2000,
+      "description": "Simulated processing delay in milliseconds"
+    },
+    "error_frequency": {
+      "type": "object",
+      "properties": {
+        "continuity_error": {
+          "type": "integer",
+          "default": 1,
+          "description": "Generate continuity error every N frames"
+        },
+        "object_missing": {
+          "type": "integer", 
+          "default": 2,
+          "description": "Generate missing object error every N frames"
+        },
+        "scene_change": {
+          "type": "integer",
+          "default": 5,
+          "description": "Generate scene change error every N frames"
+        }
+      }
+    }
+  },
+  "system_requirements": {
+    "min_memory_mb": 128,
+    "recommended_memory_mb": 256,
+    "gpu_required": false
+  }
+}
